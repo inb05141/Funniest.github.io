@@ -30,8 +30,8 @@ contact_url: "https://goo.gl/tVljbV"
 google_site_verification: "UA-96359860-1"
 
 # Categories and tags
-categories: Programming Blog Algorithm Security Embedded Web Android IOS
-tags: C C++ C# Java Swift Php Javascript NodeJs 
+# categories: Programming Blog Algorithm Security Embedded Web Android IOS
+# tags: C C++ C# Java Swift Php Javascript NodeJs 
 
 # Build settings
 markdown: kramdown
