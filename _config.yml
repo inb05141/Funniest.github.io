@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MatJek
+title: Funniest Blog
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
 baseurl: 
@@ -28,6 +28,10 @@ user: "Funniest"
 user_email: "funniest.ms@gmail.com"
 contact_url: "https://goo.gl/tVljbV"
 google_site_verification: "UA-96359860-1
+
+# Categories and tags
+categories: Programming Blog Algorithm Security Embedded Web Android IOS
+tags: C C++ C# Java Swift Php Javascript NodeJs 
 
 # Build settings
 markdown: kramdown
