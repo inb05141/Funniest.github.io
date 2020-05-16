@@ -69,7 +69,7 @@ public:
 
 </details>
 
-![첫 개발 시](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/FirstDevelop.png)
+![첫 개발 시](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/FirstDevelop.png?raw=true)
 
 Duck이라는 부모 클래스를 만들고, 이것을 상속받아 자식 클래스로 각 종류별 오리들을 만들게 될 것이다.
 
@@ -79,7 +79,7 @@ Duck이라는 부모 클래스를 만들고, 이것을 상속받아 자식 클�
 
 만약, 당신이 Duck 클래스(부모)에 Fly()라는 함수를 추가한다면, 당연히 문제가 생길 것 이다.
 
-![문제 발생](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/ProblemModify.png)
+![문제 발생](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/ProblemModify.png?raw=true)
 
 <details>
     <summary>예시 코드</summary>
@@ -98,7 +98,7 @@ public:
 
 RubberDuck(장난감 오리)가 나는 기이한 현상을 볼 수 있을 것이다. 그렇다면, 우리는 FlyAble클래스에 Fly()인터페이스를 만들고 이것을 오버라이드하여 각각의 오리들별로 기능 구현을 해주었다. 
 
-![문제 발생](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/ProblemSecondModify.png)
+![문제 발생](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/ProblemSecondModify.png?raw=true)
 
 <details>
     <summary>예시 코드</summary>
@@ -154,7 +154,7 @@ public:
 
 일단 똑같이 quack()이라는 함수를 만들어 fly()와 같이 오버라이드 해서 구현하였다.
 
-![문제 발생](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/ProblemThirdModify.png)
+![문제 발생](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/ProblemThirdModify.png?raw=true)
 
 <details>
     <summary>예시 코드</summary>
@@ -248,7 +248,7 @@ public:
 
 자 이제 이것을 토대로 구현해보자.
 
-![스트래티지 패턴](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/StrategyPattern.png)
+![스트래티지 패턴](https://github.com/Funniest/Funniest.github.io/blob/master/_posts/Photos/StrategyPattern/StrategyPattern.png?raw=true)
 
 <details>
     <summary>예시 코드</summary>
